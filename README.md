@@ -13,23 +13,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
-```
-TypeScript
-├─ Lesson-1
-│  ├─ index.html
-│  ├─ output
-│  │  ├─ script.js
-│  │  └─ script2.js
-│  ├─ src
-│  │  ├─ script.ts
-│  │  └─ script2.ts
-│  └─ tsconfig.json
-├─ README.md
-└─ typescript.png
-
-```
-
----
 
 <p align="center"> Few lines describing your project.
     <br>
@@ -137,4 +120,31 @@ See also the list of [contributors](https://github.com/TajwarSaiyeed/TypeScript)
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
+
+```
+
+```
+
+TypeScript
+├─ Lesson-1
+│ ├─ index.html
+│ ├─ output
+│ │ ├─ script.js
+│ │ └─ script2.js
+│ ├─ src
+│ │ ├─ script.ts
+│ │ └─ script2.ts
+│ └─ tsconfig.json
+├─ Lesson-2
+│ ├─ index.html
+│ ├─ output
+│ │ └─ script.js
+│ ├─ src
+│ │ └─ script.ts
+│ └─ tsconfig.json
+├─ README.md
+└─ typescript.png
+
+```
+
 ```
