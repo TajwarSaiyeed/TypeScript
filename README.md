@@ -123,8 +123,6 @@ See also the list of [contributors](https://github.com/TajwarSaiyeed/TypeScript)
 
 ```
 
-```
-
 TypeScript
 ├─ Lesson-1
 │ ├─ index.html
@@ -144,7 +142,5 @@ TypeScript
 │ └─ tsconfig.json
 ├─ README.md
 └─ typescript.png
-
-```
 
 ```
