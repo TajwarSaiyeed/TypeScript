@@ -30,4 +30,4 @@ c = {
   age: 20,
 };
 
-// console.log(c);
+console.log(c);
