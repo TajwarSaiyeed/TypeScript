@@ -13,9 +13,17 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
-
 ```
 TypeScript
+├─ Lesson-1
+│  ├─ index.html
+│  ├─ output
+│  │  ├─ script.js
+│  │  └─ script2.js
+│  ├─ src
+│  │  ├─ script.ts
+│  │  └─ script2.ts
+│  └─ tsconfig.json
 ├─ README.md
 └─ typescript.png
 
@@ -24,7 +32,7 @@ TypeScript
 ---
 
 <p align="center"> Few lines describing your project.
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
@@ -52,7 +60,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 
 ```
+
 Give examples
+
 ```
 
 ### Installing
@@ -62,13 +72,17 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
+
 Give the example
+
 ```
 
 And repeat
 
 ```
+
 until finished
+
 ```
 
 End with an example of getting some data out of the system or using it for a little demo.
@@ -82,7 +96,9 @@ Explain how to run the automated tests for this system.
 Explain what these tests test and why
 
 ```
+
 Give an example
+
 ```
 
 ### And coding style tests
@@ -90,7 +106,9 @@ Give an example
 Explain what these tests test and why
 
 ```
+
 Give an example
+
 ```
 
 ## 🎈 Usage <a name="usage"></a>
@@ -119,3 +137,4 @@ See also the list of [contributors](https://github.com/TajwarSaiyeed/TypeScript)
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
+```
