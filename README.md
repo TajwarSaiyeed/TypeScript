@@ -14,6 +14,13 @@
 
 </div>
 
+```
+TypeScript
+├─ README.md
+└─ typescript.png
+
+```
+
 ---
 
 <p align="center"> Few lines describing your project.
