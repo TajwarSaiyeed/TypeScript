@@ -14,6 +14,8 @@
 
 </div>
 
+![homeImage](https://github.com/TajwarSaiyeed/TypeScript/blob/main/home.png)
+
 <p align="center"> Few lines describing your project.
     <br>
 </p>
@@ -124,6 +126,7 @@ See also the list of [contributors](https://github.com/TajwarSaiyeed/TypeScript)
 
 ```
 TypeScript
+├─ home.png
 ├─ index.html
 ├─ Lesson-1
 │  ├─ index.html
