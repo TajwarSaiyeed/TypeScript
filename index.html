@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript</title>
+    <link rel="shortcut icon" href="./typescript.png" type="image/x-icon">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            gap: 20px;
+            padding-left: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            text-transform: uppercase;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .grid .lessonBox {
+            width: 400px;
+            height: 400px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section>
+
+        <h1>TypeScript - Abid</h1>
+        <br>
+        <a href="https://www.youtube.com/@LearnwithSumit"
+            style="background: rgb(43, 56, 170); margin:10px; width: 200px; cursor: pointer; color: #f1f1f1; padding: 20px; text-transform: uppercase; font-weight: 700; text-decoration: none;">
+            Learn With Sumit Youtube Channel</a>
+
+        <br>
+        <br>
+        <div class="grid">
+        </div>
+    </section>
+
+
+    <script>
+
+        let lessonArray = [
+            {
+                lesson: "Lesson 1",
+                title: "First project setup | tsc",
+                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-1",
+                video: "https://www.youtube.com/embed/47PASjEF5fo"
+            },
+            {
+                lesson: "Lesson 2",
+                title: "TypeScript Basics",
+                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-2",
+                video: "https://www.youtube.com/embed/zPxvFjNQN20"
+            },
+            {
+                lesson: "Lesson 3",
+                title: "Explicit & Union Type",
+                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-3",
+                video: "https://www.youtube.com/embed/fIQQNQ7DaV8"
+            }
+        ]
+
+
+        let grid = document.querySelector(".grid")
+
+
+        lessonArray.forEach(lesson => {
+            let div = document.createElement("div")
+            div.classList.add("lessonBox");
+            div.innerHTML = `<img src="./typescript.png" alt="">
+            <p>${lesson.lesson}</p>
+                <br>
+                <h1 style="font-size: 1em;">${lesson.title}</h1>
+                <a target="_blank" href="${lesson.source}">Source Code
+                    Github</a>
+                <br>
+                <div style="background: #333; width: 300px; height: auto;  color: white; border-radius: 10px;">
+                    <iframe style="border-radius: 10px;" width="100%" height="100%"
+                        src="${lesson.video}" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                `
+            grid.appendChild(div)
+        })
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -123,6 +123,7 @@ See also the list of [contributors](https://github.com/TajwarSaiyeed/TypeScript)
 
 ```
 TypeScript
+├─ index.html
 ├─ Lesson-1
 │  ├─ index.html
 │  ├─ output
