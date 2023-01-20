@@ -122,24 +122,30 @@ See also the list of [contributors](https://github.com/TajwarSaiyeed/TypeScript)
 - References
 
 ```
-
 TypeScript
 ├─ Lesson-1
-│ ├─ index.html
-│ ├─ output
-│ │ ├─ script.js
-│ │ └─ script2.js
-│ ├─ src
-│ │ ├─ script.ts
-│ │ └─ script2.ts
-│ └─ tsconfig.json
+│  ├─ index.html
+│  ├─ output
+│  │  ├─ script.js
+│  │  └─ script2.js
+│  ├─ src
+│  │  ├─ script.ts
+│  │  └─ script2.ts
+│  └─ tsconfig.json
 ├─ Lesson-2
-│ ├─ index.html
-│ ├─ output
-│ │ └─ script.js
-│ ├─ src
-│ │ └─ script.ts
-│ └─ tsconfig.json
+│  ├─ index.html
+│  ├─ output
+│  │  └─ script.js
+│  ├─ src
+│  │  └─ script.ts
+│  └─ tsconfig.json
+├─ Lesson-3
+│  ├─ index.html
+│  ├─ output
+│  │  └─ script.js
+│  ├─ src
+│  │  └─ script.ts
+│  └─ tsconfig.json
 ├─ README.md
 └─ typescript.png
 
