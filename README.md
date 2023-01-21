@@ -148,6 +148,21 @@ TypeScript
 │  │  │  └─ Player.ts
 │  │  └─ script.ts
 │  └─ tsconfig.json
+├─ Lesson-11
+│  ├─ index.html
+│  ├─ output
+│  │  ├─ classes
+│  │  │  └─ Player.js
+│  │  ├─ interfaces
+│  │  │  └─ isPlayer.js
+│  │  └─ script.js
+│  ├─ src
+│  │  ├─ classes
+│  │  │  └─ Player.ts
+│  │  ├─ interfaces
+│  │  │  └─ isPlayer.ts
+│  │  └─ script.ts
+│  └─ tsconfig.json
 ├─ Lesson-2
 │  ├─ index.html
 │  ├─ output
