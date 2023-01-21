@@ -165,6 +165,13 @@ TypeScript
 │  ├─ src
 │  │  └─ script.ts
 │  └─ tsconfig.json
+├─ Lesson-6
+│  ├─ index.html
+│  ├─ output
+│  │  └─ script.js
+│  ├─ src
+│  │  └─ script.ts
+│  └─ tsconfig.json
 ├─ README.md
 └─ typescript.png
 
