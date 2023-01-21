@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TypeScript</title>
-    <link rel="shortcut icon" href="./typescript.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./typescript.png" type="image/x-icon" />
 
     <style>
         * {
@@ -53,91 +53,108 @@
             transition: all 0.3s ease;
         }
     </style>
-
-
 </head>
 
 <body>
     <section>
-
         <h1>TypeScript - Abid</h1>
-        <br>
-        <a href="https://www.youtube.com/@LearnwithSumit"
-            style="background: rgb(43, 56, 170); margin:10px; width: 200px; cursor: pointer; color: #f1f1f1; padding: 20px; text-transform: uppercase; font-weight: 700; text-decoration: none;">
+        <br />
+        <a href="https://www.youtube.com/@LearnwithSumit" style="
+          background: rgb(43, 56, 170);
+          margin: 10px;
+          width: 200px;
+          cursor: pointer;
+          color: #f1f1f1;
+          padding: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          text-decoration: none;
+        ">
             Learn With Sumit Youtube Channel</a>
 
-        <br>
-        <br>
-        <div class="grid">
-        </div>
+        <br />
+        <br />
+        <div class="grid"></div>
     </section>
 
-
     <script>
-
         let lessonArray = [
             {
                 lesson: "Lesson 1",
                 title: "First project setup | tsc",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-1",
-                video: "https://www.youtube.com/embed/47PASjEF5fo"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-1",
+                video: "https://www.youtube.com/embed/47PASjEF5fo",
             },
             {
                 lesson: "Lesson 2",
                 title: "TypeScript Basics",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-2",
-                video: "https://www.youtube.com/embed/zPxvFjNQN20"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-2",
+                video: "https://www.youtube.com/embed/zPxvFjNQN20",
             },
             {
                 lesson: "Lesson 3",
                 title: "Explicit & Union Type",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-3",
-                video: "https://www.youtube.com/embed/fIQQNQ7DaV8"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-3",
+                video: "https://www.youtube.com/embed/fIQQNQ7DaV8",
             },
             {
                 lesson: "Lesson 4",
                 title: "Dynamic Type or any Type",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-4",
-                video: "https://www.youtube.com/embed/Styuf2Bv92I"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-4",
+                video: "https://www.youtube.com/embed/Styuf2Bv92I",
             },
             {
                 lesson: "Lesson 5",
                 title: "How To Use Functions",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-5",
-                video: "https://www.youtube.com/embed/mlrcRxhbN_4"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-5",
+                video: "https://www.youtube.com/embed/mlrcRxhbN_4",
             },
             {
                 lesson: "Lesson 6",
                 title: "Type Aliases",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-6",
-                video: "https://www.youtube.com/embed/BrhciRc2F4g"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-6",
+                video: "https://www.youtube.com/embed/BrhciRc2F4g",
             },
             {
                 lesson: "Lesson 7",
                 title: "Function Signatures",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-7",
-                video: "https://www.youtube.com/embed/mZ-bn4IvlPE"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-7",
+                video: "https://www.youtube.com/embed/mZ-bn4IvlPE",
             },
             {
                 lesson: "Lesson 8",
                 title: "Work with Classes",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-8",
-                video: "https://www.youtube.com/embed/hzR6VM_D_G8"
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-8",
+                video: "https://www.youtube.com/embed/hzR6VM_D_G8",
             },
             {
                 lesson: "Lesson 9",
                 title: "Class Access Modifier",
-                source: "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-9",
-                video: "https://www.youtube.com/embed/ZBqaso6wBUY"
-            }
-        ]
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-9",
+                video: "https://www.youtube.com/embed/ZBqaso6wBUY",
+            },
+            {
+                lesson: "Lesson 10",
+                title: "Module System",
+                source:
+                    "https://github.com/TajwarSaiyeed/TypeScript/tree/main/Lesson-10",
+                video: "https://www.youtube.com/embed/lnup-9bBCUQ",
+            },
+        ];
 
+        let grid = document.querySelector(".grid");
 
-        let grid = document.querySelector(".grid")
-
-
-        lessonArray.forEach(lesson => {
-            let div = document.createElement("div")
+        lessonArray.forEach((lesson) => {
+            let div = document.createElement("div");
             div.classList.add("lessonBox");
             div.innerHTML = `<img src="./typescript.png" alt="">
             <p>${lesson.lesson}</p>
@@ -152,16 +169,10 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-                `
-            grid.appendChild(div)
-        })
-
-
-
-
+                `;
+            grid.appendChild(div);
+        });
     </script>
-
-
 </body>
 
 </html>

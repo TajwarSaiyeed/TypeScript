@@ -137,6 +137,17 @@ TypeScript
 │  │  ├─ script.ts
 │  │  └─ script2.ts
 │  └─ tsconfig.json
+├─ Lesson-10
+│  ├─ index.html
+│  ├─ output
+│  │  ├─ classes
+│  │  │  └─ Player.js
+│  │  └─ script.js
+│  ├─ src
+│  │  ├─ classes
+│  │  │  └─ Player.ts
+│  │  └─ script.ts
+│  └─ tsconfig.json
 ├─ Lesson-2
 │  ├─ index.html
 │  ├─ output
